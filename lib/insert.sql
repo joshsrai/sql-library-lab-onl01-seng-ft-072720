@@ -10,7 +10,7 @@ VALUES (1, "Aslan", "roar", "Lion", 1, 1),
 (5, "Gandalf", "All we have to decide is what to do with the time that is given to us", "Maiar", 2,2),
 (6, "Aragorn", "Not idly do the leaves of Lorien fall", "Dunedain", 2,2),
 (7, "Boromir", "One does not simply walk into Mordor", "Human", 2, 2),
-(8, "Shelob", "...", "Giant Spider", 2,2
+(8, "Shelob", "...", "Giant Spider", 2,2);
 
 INSERT INTO subgenres (id, name)
 VALUES
