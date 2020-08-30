@@ -12,10 +12,7 @@ VALUES (1, "Aslan", "roar", "Lion", 1, 1),
 (7, "Boromir", "One does not simply walk into Mordor", "Human", 2, 2),
 (8, "Shelob", "...", "Giant Spider", 2,2
 
-INSERT INTO subgenres (id, name)
-VALUES
-(1, "medieval"),
-(2, "space opera");
+INSERT INTO subgenres (id, name) VALUES (1, "Fantasy"), (2, "Epic Style Legend");");
 
 INSERT INTO character_books (book_id, character_id)
 VALUES
