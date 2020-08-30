@@ -29,7 +29,7 @@ end
 def select_name_and_series_subgenres_of_authors
   "SELECT authors.name, subgrenes.name
   FROM series
-  JOIN autors
+  JOIN authors
   ON series.author_id = authors.id
   JOIN subgrenes
   ON series.subgrene_id = subgrenes.id
@@ -58,6 +58,5 @@ def select_character_names_and_number_of_books_they_are_in
   ON characters.id = character_books.character_id 
   GROUP BY characters.name 
   ORDER BY COUINT(*) DESC
-  
   "
 end
