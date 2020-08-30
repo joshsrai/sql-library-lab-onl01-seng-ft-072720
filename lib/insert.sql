@@ -14,8 +14,14 @@ VALUES (1, "Aslan", "roar", "Lion", 1, 1),
 
 INSERT INTO subgenres (id, name)
 VALUES
-(1, "medieval"),(2, "space opera");
+(1, "medieval"),
+(2, "space opera");
 
 INSERT INTO character_books (book_id, character_id)
 VALUES
 (1,1), (1,2), (1,4), (2,1), (2,2), (3,1), (3,2), (3,3), (4,5), (4,6), (4,7), (5,5), (5,6), (6,5), (6,6), (6,8);
+
+INSERT INTO authors (id, name)
+VALUES
+(1, "George R. R. Martin"),
+(2, "Second Author");
